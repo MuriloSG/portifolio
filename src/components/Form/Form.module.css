@@ -1,0 +1,92 @@
+.form {
+  padding: 1.5rem;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.input input,
+textarea {
+  outline: unset;
+  min-width: 35rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  border: none;
+  resize: none;
+}
+
+.input input:focus,
+textarea:focus {
+  background-color: var(--inputFocus);
+}
+
+.input label {
+  color: var(--tex);
+  font-size: 1rem;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.input .messageError {
+  font-size: 0.8rem;
+  color: var(--error);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 3rem;
+}
+
+.submitButton {
+  background-color: var(--submitButton);
+  color: var(--text);
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.submitButton span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.resetButton {
+  background-color: var(--resetButton);
+  color: #000000;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.resetButton span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+@media (max-width: 768px) {
+  .input input,
+  textarea {
+    min-width: 19rem;
+    padding: 1rem;
+    padding: .7rem;
+  }
+  .input label {
+    font-size: .8rem;
+  }
+}

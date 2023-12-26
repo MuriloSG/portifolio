@@ -1,0 +1,18 @@
+.Name{
+  color: var(--text);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.SymbolOne{
+  color: var(--hoverPrimary);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.SymbolTwo {
+  color: var(--hoverPrimary);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.Name:hover{
+  color: var(--hoverPrimary);
+}

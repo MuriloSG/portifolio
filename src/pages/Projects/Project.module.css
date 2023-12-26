@@ -1,0 +1,28 @@
+.projectContainer {
+  width: 100%;
+  min-height: 90vh;
+  padding-top: 4rem;
+}
+.projectTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.projectCard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-block: 4rem;
+}
+
+.projectLoading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+}

@@ -1,0 +1,27 @@
+.aboutMe {
+  width: 800px;
+  height: 250px;
+  text-align: justify;
+  letter-spacing: 1px;
+  word-spacing: 0.1px;
+}
+@media (max-width: 768px) {
+  .aboutMe {
+    width: 38.5rem;
+    height: 15.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutMe {
+    width: 22rem;
+    height: 19rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .aboutMe {
+    width: 23rem;
+    height: 19rem;
+  }
+}

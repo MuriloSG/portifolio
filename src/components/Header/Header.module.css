@@ -1,0 +1,129 @@
+.header {
+  width: 100%;
+  height: 4rem;
+  background-color: var(--header);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: var(--text);
+  font-size: 1.125rem;
+  padding-right: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+}
+.header a:hover {
+  color: var(--hoverPrimary);
+  transition: all .4s
+}
+.header nav {
+  margin-left: 40rem;
+}
+
+/* menu sanduich */
+@media (max-width: 768px) {
+  .menuSanduich {
+    display: none;
+  }
+
+  .show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 1.97rem;
+    right: 0;
+    background-color: var(--header);
+    gap: 1.5rem;
+  }
+
+  .navbar > .nav_items > a::before {
+    background: transparent;
+  }
+
+  .navbar > .nav_items.open {
+    transform: translateX(0);
+  }
+
+  .navbar > .navToggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .navToggle > .bar {
+    position: relative;
+    width: 32px;
+    height: 3px;
+    background: var(--text);
+    transition: all 0.45s ease-in-out;
+  }
+
+  .navToggle > .bar::before,
+  .navToggle > .bar::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: var(--text);
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .navToggle > .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+
+  .navToggle > .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+
+  .navToggle.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+
+  .navToggle.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+  }
+
+  .navToggle.open > .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    position: fixed;
+  }
+
+  .show {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header nav {
+    margin-left: 30rem;
+  }
+}
+@media (max-width: 835px) {
+  .header nav {
+    margin-left: 10rem;
+  }
+}
+
+

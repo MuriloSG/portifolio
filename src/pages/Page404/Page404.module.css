@@ -1,0 +1,16 @@
+.titleTwo {
+  padding-top: 6rem;
+  font-size: 2rem;
+}
+
+.texts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statusCode{
+  font-size: 20rem;
+  font-weight: bold;
+  color: var(--error);
+}

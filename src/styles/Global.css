@@ -1,0 +1,40 @@
+:root {
+  font-family: 'Fira Code', monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --header: #14201E;
+  --body: #124c56;
+  --footer: #14201E;
+  --hoverPrimary: #FFBE16;
+  --hoverBtn: #14201e;
+  --symbol: #FFBE16;
+  --text: #fff;
+  --textTwo: #FFBE16;
+  --textTree: #14201E;
+  --error: #fd0065;
+  --input: #FFBE16;
+  --inputFocus: 	#F0FFFF;
+  --submitButton: #007bff;
+  --textFor:#D3D3D3;
+  --resetButton:#D3D3D3;
+  --loading: 	#F0FFFF;
+  --loadingBorder: 	#f3f3f3;
+  --cardColor: #FFF5EE;
+  --cardIcons: #FFBE16;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,50 @@
+.CardContainer{
+  width: 300px;
+  height: 300px;
+  background-color: var(--cardColor);
+  color: var(--textTree);
+  border-radius: .5rem;
+  box-shadow: 5px 5px 20px #7370706e;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.CardContainer h3{
+  color: var(--textTree);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.cardFooter{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardIcons{
+  display: flex;
+  gap: .6rem;
+  color: var(--cardIcons);
+  font-size: 2rem;
+}
+
+.cardButton{
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: .5rem;
+  background-color: var(--submitButton);
+  color: var(--text);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardButton:hover{
+  background-color: var(--hoverPrimary);
+  transition: all .3s
+}
