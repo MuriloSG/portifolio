@@ -7,20 +7,20 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 
 // Import Images
-import cImage from "../../assets/C.svg";
-import expressImage from "../../assets/express.js.svg";
-import gitImage from "../../assets/git.svg";
-import githubImage from "../../assets/github.svg";
-import javaImage from "../../assets/java.svg";
-import mongoDbImage from "../../assets/mongo.db.svg";
-import nodeJsImage from "../../assets/node.js.svg";
-import postgresqlImage from "../../assets/postgresql.svg";
-import sqlImage from "../../assets/sql.svg";
-import typescriptImage from "../../assets/typescript.svg";
-import javascript from "../../assets/javascript.svg";
-import react from "../../assets/react.svg";
-import html from "../../assets/html.svg";
-import css from "../../assets/css.svg";
+import cImage from "/assets/C.svg";
+import expressImage from "/assets/express.js.svg";
+import gitImage from "/assets/git.svg";
+import githubImage from "/assets/github.svg";
+import javaImage from "/assets/Java.svg";
+import mongoDbImage from "/assets/mongo.db.svg";
+import nodeJsImage from "/assets/node.js.svg";
+import postgresqlImage from "/assets/postgresql.svg";
+import sqlImage from "/assets/sql.svg";
+import typescriptImage from "/assets/typescript.svg";
+import javascript from "/assets/javascript.svg";
+import react from "/assets/react.svg";
+import html from "/assets/html.svg";
+import css from "/assets/css.svg";
 
 const Slide = () => {
   const data = [

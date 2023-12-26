@@ -6,8 +6,8 @@ import { FormSchema } from "../../validation/FormValidation";
 import emailjs from "@emailjs/browser";
 
 //import logo
-import send from "../../assets/sendLogo.svg";
-import eraser from "../../assets/eraserLogo.svg";
+import send from "/assets/sendLogo.svg";
+import eraser from "/assets/eraserLogo.svg";
 import { useState } from "react";
 
 const Form = () => {

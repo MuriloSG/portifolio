@@ -5,8 +5,8 @@ import Form from "../../components/Form";
 import styles from "./Contact.module.css";
 
 //import images
-import github from "../../assets/github.svg";
-import linkedin from "../../assets/linkedin.svg";
+import github from "/assets/github.svg";
+import linkedin from "/assets/linkedin.svg";
 
 //links socials
 const githubProfileUrl = "https://github.com/MuriloSG";
