@@ -39,7 +39,7 @@
     width: 100%;
     display: block;
     min-height: 94vh;
-    padding-top: 2.5rem;
+    padding-top: 5rem;
   }
   .aboutContent {
     flex-direction: column;

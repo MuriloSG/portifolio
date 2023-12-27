@@ -54,7 +54,6 @@
   box-shadow: 7px 6px 20px -8px rgba(20, 32, 30, 0.82);
 }
 
-
 @media (max-width: 480px) {
   .myswiper {
     width: 200px;
@@ -70,5 +69,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .slide {
+    top: 6rem;
   }
 }
